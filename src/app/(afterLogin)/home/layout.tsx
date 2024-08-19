@@ -8,3 +8,5 @@ export default function HomeLayout({ children }: { children: ReactNode }) {
     </div>
   );
 }
+
+// root layout -> after login layout -> home layout
