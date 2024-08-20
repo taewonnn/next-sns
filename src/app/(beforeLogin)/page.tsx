@@ -1,5 +1,5 @@
-import HomeBackground from './_component/HomeBackground';
+import Main from './_component/Main';
 
 export default function Home() {
-  return <HomeBackground />;
+  return <Main />;
 }

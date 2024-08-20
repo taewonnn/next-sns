@@ -1,13 +1,13 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import HomeBackground from '../_component/HomeBackground';
+import Main from '../_component/Main';
 
 /** redirect */
 export default function Login() {
   const router = useRouter();
   router.replace('i/flow/login');
-  return <HomeBackground />;
+  return <Main />;
 }
 
 // router.push

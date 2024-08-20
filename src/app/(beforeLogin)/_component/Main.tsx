@@ -3,7 +3,7 @@ import Image from 'next/image';
 import zLogo from '../../../../public/zlogo.png';
 import Link from 'next/link';
 
-export default function HomeBackground() {
+export default function Main() {
   return (
     <>
       <div className={styles.container}>
