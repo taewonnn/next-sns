@@ -1,7 +1,7 @@
 'use client';
 
 import style from './login.module.css';
-import { useState } from 'react';
+import { ChangeEventHandler, FormEventHandler, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function LoginModal() {
