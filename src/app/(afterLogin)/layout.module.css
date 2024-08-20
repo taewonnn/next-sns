@@ -1,7 +1,7 @@
 .container {
   display: flex;
   align-items: stretch;
-  background-color: rgb(var(--background-end-rgb));
+  background-color: inherit; /* 배경색을 기본 값으로 */
 }
 
 .leftSectionWrapper {

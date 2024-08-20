@@ -1,5 +1,5 @@
 .trendBg {
-  background-color: rgb(247, 249, 249);
+  background-color: inherit; /* 배경색을 기본 값으로 */
   border-radius: 16px;
   margin-top: 12px;
 }
@@ -11,4 +11,16 @@
 .trend h3 {
   margin-bottom: 12px;
   padding: 0 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .trend h3 {
+    color: #ffffff; /* 다크 모드에서는 흰색으로 */
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .trend h3 {
+    color: #000000; /* 라이트 모드에서는 검정색으로 */
+  }
 }
